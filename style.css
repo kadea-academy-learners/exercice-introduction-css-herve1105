@@ -1,3 +1,105 @@
+*{
+    background-color: white;
+    text-align: center;
+}
 
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
 
+header{
+    background: gray;
+}
 
+h1, p{
+    background: gray;
+}
+
+main{
+    margin: 20px auto;
+    background-color: gray;
+}
+
+.image-container{
+    margin: 0;
+    background: white;
+}
+
+figure img{
+    max-width: 900px;
+}
+
+figcaption{
+    font-size: 0.9em;
+    padding: 10px;
+}
+
+section{
+    background-color: gray;
+}
+
+h2{
+    font-size: 1.3em;
+    background-color: gray;
+    margin: 50px;
+}
+
+ul{
+    max-width: 500px;
+    margin: auto;
+    background-color: gray;
+}
+
+ul li{
+    text-align: left;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+
+li strong{
+    background-color: gray;
+}
+
+blockquote{
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: gray;
+}
+
+p{
+    margin-right: 14rem;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+
+p em{
+    font-style: italic;
+    background-color: gray;
+}
+
+footer{
+    background-color: gray;
+    font-weight: bold;
+}
+
+footer p{
+    text-align: center;
+    margin: auto;
+}
+
+footer a{
+    color: rgba(205, 115, 228, 0.584);
+    text-decoration: none;
+    background-color: gray;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

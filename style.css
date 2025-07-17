@@ -1,3 +1,4 @@
+/* Styles globaux de notre page arrière */
 * {
   background-color: white;
   text-align: center;
@@ -10,6 +11,7 @@ body {
   border-radius: 5px;
 }
 
+/* Styles de l'en-tête */
 header {
   background: gray;
 }
@@ -19,11 +21,13 @@ p {
   background: gray;
 }
 
+/* Styles de la balise main */
 main {
   margin: 20px auto;
   background-color: gray;
 }
 
+/* Styles du conteneur d'image */
 .image-container {
   margin: 0;
   background: white;
@@ -38,6 +42,7 @@ figcaption {
   padding: 10px;
 }
 
+/* Styles de la section (chronologie) */
 section {
   background-color: gray;
 }
@@ -48,6 +53,7 @@ h2 {
   margin: 50px;
 }
 
+/* Styles de la liste non ordonnée */
 .annee {
   max-width: 500px;
   margin: auto;
@@ -64,6 +70,7 @@ li strong {
   background-color: gray;
 }
 
+/* Styles du blockquote (citation) */
 .slog {
   text-align: left;
   max-width: 500px;
@@ -74,6 +81,7 @@ li strong {
   font-style: italic;
 }
 
+/* Styles du paragraphe */
 p {
   margin-right: 14rem;
   background-color: gray;
@@ -85,6 +93,7 @@ p em {
   background-color: gray;
 }
 
+/* Styles du pied de page */
 footer {
   background-color: gray;
   font-weight: bold;
